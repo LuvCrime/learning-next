@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+
+.errorLink,
+.goBackLink {
+  color: blue;
+  text-decoration: none;
+}
+.postListLink {
+    color: black;
+    padding: 10px 0;
+    display: flex;
+}
+
+.padding {
+  padding: 20px 50px;
+}
+
+.navigation {
+  display: flex;
+  background: blue;
+}
+
+.navigation * {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px;
+  transition: 0.3s;
+}
+
+.navigation *:hover {
+  background-color: #ffffff1a;
+}
+
+.main-wrapper {
+  padding: 0 50px;
+}
