@@ -8,12 +8,6 @@ const Error404 = () => {
       <h2>
         Please <Link className="errorLink" href="/">go back</Link> to safety
       </h2>
-      <style global jsx>{`
-        body {
-          margin: 0;
-          font-family: "Roboto Mono", monospace;
-        }
-      `}</style>
     </div>
   );
 };
